@@ -7,13 +7,13 @@ n_cores <- parallel::detectCores() - 1
 
 #### LOAD FILES SCRIPT ####
 # cost
-cost <- read_csv("cost.csv") %>%
+cost <- read_csv("inputs/cost.csv") %>%
   # set all column headings to lower case
   rename_all(tolower) %>%
   rename(id = hydroid)
 
 # species
-species <- read_csv("species.csv") %>%
+species <- read_csv("inputs/species.csv") %>%
   # set all column headings to lower case
   rename_all(tolower) %>%
   # strip the SP characters from the species codes and leave only number values with leading zeros
@@ -23,7 +23,7 @@ species <- read_csv("species.csv") %>%
   mutate(id = as.integer(id)) 
 
 # representation matrix
-rij <- read_csv("APU/SDM_APU_current.csv") %>% 
+rij <- read_csv("inputs/SDM_APU_current.csv") %>% 
   rename(hydroid = HydroID) %>%
   # rename the species code colums to leave only number values with leading zeros
   rename_at(.vars = vars(starts_with("SP")), .funs = funs(sub("[SP].", "", .))) %>%
@@ -33,7 +33,7 @@ rij <- read_csv("APU/SDM_APU_current.csv") %>%
   rename(pu = hydroid)
 
 # planning unit boundaries
-bound <- read_csv("APU/APU_boundary_connections_clean_MARXAN.csv")
+bound <- read_csv("inputs/APU_boundary_connections_clean_MARXAN.csv")
 
 #### END LOAD FILES SCRIPT ####
 
