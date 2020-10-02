@@ -1,9 +1,7 @@
 # freshwater-conservation-planning
 Ontario Northern Boreal - Prioritizr Analysis
 
-This repository contains the datasets and scripts used in a freshwater conservation planning analysis in Ontario's Northern Boreal.  
-
-Specifically, it includes the PCA script to develop the cost index, the species matrix of predicted distribution for 30 freshwater fish species across 1417 watershed planning units, the watershed planning units shapefile and the Prioritizr analysis scripts used in 6 conservation planning scenarios to meet two area-based conservation targets (17% and 30%).
+This repository contains the datasets and scripts used in a freshwater conservation planning analysis in Ontario's Northern Boreal conducted by WCS Canada. It includes a shapefile of the watershed planning units and the R scripts that were used to (a) develop a species matrix of predicted distribution for 30 freshwater fish species across 1417 watershed planning units, (b) develop a cost index based on a PCA of human disturbances known to affect freshwater species, and (c) run the prioritiz conservation planning analysis using 6 different scenarios to meet two area-based conservation targets (17% and 30%).
 
 List of Scenarios:
 1: Freshwater fish biodiversity scenario (i.e. 30 species)
