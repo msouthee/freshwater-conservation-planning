@@ -21,5 +21,3 @@ SP42_Brook_Trout = Focal species scenario - Brook Trout
 SP46_Walleye = Focal species scenario - Walleye
 
 Copyright M. Southee / WCS Canada 2020.
-
-
