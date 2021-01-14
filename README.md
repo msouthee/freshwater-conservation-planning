@@ -1,5 +1,6 @@
 # freshwater-conservation-planning
-Title: Freshwater conservation planning in the far north of Ontario, Canada: identifying priority watersheds for the conservation of fish biodiversity in an intact boreal landscape
+
+Freshwater conservation planning in the far north of Ontario, Canada: identifying priority watersheds for the conservation of fish biodiversity in an intact boreal landscape
 
 Citation: Southee FM, Edwards BA, Chetkiewicz C-LB, and O’Connor CM. 2021. Freshwater conservation planning in the far north of Ontario, Canada: identifying priority watersheds for the conservation of fish biodiversity in an intact boreal landscape. FACETS 6: 1–28. doi:10.1139/facets-2020-0015
 
