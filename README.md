@@ -1,23 +1,13 @@
 # freshwater-conservation-planning
-Ontario Northern Boreal - Prioritizr Freshwater Conservation Planning Analysis Repository
 
-This repository contains the datasets and scripts used in a freshwater conservation planning analysis in Ontario's Northern Boreal conducted by WCS Canada. It includes a shapefile of the watershed planning units (planning_units.7z), the inputs for the freshwater conservation planning analysis (Inputs folder), and the R scripts that were used to develop a cost index based on a PCA of human disturbances known to affect freshwater species (CostIndexPCA folder), and the R scripts run the prioritiz conservation planning analysis using six different scenarios to meet two area-based conservation targets (17% and 30%) (prioritizr_analysis folder).
+Freshwater conservation planning in the far north of Ontario, Canada: identifying priority watersheds for the conservation of fish biodiversity in an intact boreal landscape
 
-Description of files in the prioritizr_analysis folder:
-01_APU_ANALYSIS = initial conservation planning analyses with targets ranging from 10-90% species representation
-02_APU_Summarize = summary of results from initinal conservation planning analyses
-03_APU_17_ANALYSIS = conservation planning analysis to meet the 17% area-based target
-04_APU_17_Summarize = summary of resuts from conservtation planning analysis to meet 17% area-based target
-06_APU_30_ANALYSIS = conservation planning analysis to meet the 30% area-based target
-07_APU_30_Summarize = summary of resuts from conservtation planning analysis to meet 30% area-based target
+This repository contains the input datasets and R scripts used in the aforementioned paper. Included in this repository are the following datasets: watershed planning units shapefile [planning_units.7z], input datasets for the freshwater conservation planning analysis [Inputs folder], R scripts for the cost index created using a Principal Components Analysis of human disturbances known to affect freshwater species [CostIndexPCA folder], and R scripts used to run the prioritizr conservation planning analysis using six different scenarios to meet two area-based conservation targets (17% and 30%) [prioritizr_analysis folder].
 
+The scenarios are listed based on R script suffix: freshwater fish biodiversity scenario (i.e. 30 species) [No Suffix], freshwater fish biodiversity scenario (i.e. 30 species) with protected areas locked in [PA_LOCKED_IN], lake sturgeon scenario [SP01_Lake_Sturgeon], lake whitefish scenario [SP09_Lake_Whitefish], brook trout scenario [SP42_Brook_Trout], and walleye scenario [SP46_Walleye].
 
-Scenario List based on R script suffix:
-No suffix = Freshwater fish biodiversity scenario (i.e. 30 species)
-PA_LOCKED_IN = Freshwater fish biodiversity scenario (i.e. 30 species) with protected areas locked in
-SP01_Lake_Sturgeon = Focal species scenario - Lake Sturgeon
-SP09_Lake_Whitefish = Focal species scenario - Lake Whitefish
-SP42_Brook_Trout = Focal species scenario - Brook Trout
-SP46_Walleye = Focal species scenario - Walleye
+The prioritizr_analysis folder contains the following sub-folders: initial conservation planning analyses with targets ranging from 10-90% species representation [01_APU_ANALYSIS], results from the initial analysis [02_APU_Summarize], conservation planning analysis to meet the 17% area-based target [03_APU_17_ANALYSIS], results for the 17% area-based target [04_APU_17_Summarize], conservation planning analysis to meet the 30% area-based target [06_APU_30_ANALYSIS], and results for the 30% area-based target [07_APU_30_Summarize].
 
-Copyright M. Southee / WCS Canada 2020
+Citation: Southee FM, Edwards BA, Chetkiewicz C-LB, and O’Connor CM. 2021. Freshwater conservation planning in the far north of Ontario, Canada: identifying priority watersheds for the conservation of fish biodiversity in an intact boreal landscape. FACETS 6: 1–28. doi:10.1139/facets-2020-0015
+
+Copyright: © 2021 Southee et al. This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author(s) and source are credited.
