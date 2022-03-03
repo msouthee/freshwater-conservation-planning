@@ -29,7 +29,7 @@ species <- read_csv("inputs/species.csv") %>%
 # representation matrix
 rij <- read_csv("inputs/SDM_APU_current.csv") %>% 
   rename(hydroid = HydroID) %>%
-  # rename the species code colums to leave only number values with leading zeros
+  # rename the species code columns to leave only number values with leading zeros
   rename_at(.vars = vars(starts_with("SP")), .funs = funs(sub("[SP].", "", .))) %>%
   # transform the matrix into column format
   gather(species, amount, -hydroid) %>% 
